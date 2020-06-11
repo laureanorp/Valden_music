@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+p, a {
+    font-family: 'IM Fell English', serif;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    border-radius: 6px;
+}
+
+@media (max-width: 575.98px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+.card-img-overlay {
+    opacity: 0;
+    transition: ease-in-out;
+    transition: 0.3s;
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-family: 'Barlow Semi Condensed';
+}
+
+footer {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+}
+
+footer p , a {
+    color: black;
+}
+
+footer a {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
