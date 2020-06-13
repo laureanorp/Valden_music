@@ -19,14 +19,14 @@
 <body>
     <main>
         <div class="container">
-            <img src="img/Valden_faux_gravure.jpg" class="img-fluid logo">
+            <img src="img/Valden_faux_gravure.jpg" class="img-fluid top-logo">
             
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
+                <div class="justify col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
-                    <audio controls>
+                    <audio controls class>
                         <source src="audio//01.Endscape-ValdenBest2020.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
@@ -45,21 +45,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
+                <div class="bio-col col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
                     <div class="card bg-dark text-white">
                         <img src="img/riccardo.jpeg" class="card-img">
                         <div class="card-img-overlay">
                           <p class="card-title">Riccardo Massari</p>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p class="justify card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
+                <div class="bio-col col-xl-6 col-lg-6 col-md6 col-sm-6 col-xs-12">
                     <div class="card bg-dark text-white">
                         <img src="img/tony.jpg" class="card-img">
                         <div class="card-img-overlay">
                           <p class="card-title">Tony Peña</p>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p class="justify card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                     </div>
                 </div>
@@ -67,30 +67,31 @@
         </div>
     </main>
 
-
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-2 col-xs-4">
-                    <img src="img/Valden_faux_gravure.jpg" class="img-fluid footer-logo">
-                </div>
-                <div class="col-10 col-xs-8">
-                    <p class="text-right"><a href="mailto:someone@yoursite.com">contact us</a></p>
-                    <p class="text-right"><a href="lorem-ipsum.pdf" download>download info</a></p>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-6">
-                    <p>Copyright © Valden 2020</p>
+                    <div class="row">
+                        <img src="img/Valden_faux_gravure.jpg" class="img-fluid bottom-logo">
+                    </div>
+                    <div class="row" id="copy">
+                        <p>Copyright © Valden 2020</p>
+                    </div>
                 </div>
                 <div class="col-6">
-                    <p class="text-right"><a href="">instagram</a><a href="">bandcamp</a><a href="">vimeo</a></p>
+                    <div class="row" id="contact">
+                        <p class="text-right"><a href="mailto:someone@yoursite.com">contact us</a></p>
+                        <p class="text-right"><a href="lorem-ipsum.pdf" download>download info</a></p>
+                    </div>
+                    <div class="row" id="social">
+                        <p class="text-right"><a href="">instagram</a></p>
+                        <p class="text-right"><a href="">bandcamp</a></p>
+                        <p class="text-right"><a href="">vimeo</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-
-  
 
 </body>
 </html>

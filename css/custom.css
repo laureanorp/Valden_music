@@ -2,26 +2,48 @@ body {
     background-color: black;
 }
 
+.top-logo {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 p, a {
     font-family: 'IM Fell English', serif;
     color: white;
 }
 
-.logo {
+.top-logo, .bottom-logo {
     width: 20%;
     border-radius: 6px;
 }
 
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media (max-width: 575.98px) {
-    .logo {
+    .top-logo, .bottom-logo {
         width: 30%;
     }
+}
+
+.bio-col {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    padding-bottom: 2rem;
+}
+
+.card, .card img {
+    border-radius: 6px;
 }
 
 .card-img-overlay {
     opacity: 0;
     transition: ease-in-out;
     transition: 0.3s;
+    border-radius: 6px;
 }
 
 .card-img-overlay:hover {
