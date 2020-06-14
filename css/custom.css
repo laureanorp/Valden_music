@@ -10,9 +10,14 @@ body {
 p, a {
     font-family: 'IM Fell English', serif;
     color: white;
+    font-size: 1.25rem;
 }
 
-.top-logo, .bottom-logo {
+.top-logo {
+    border-radius: 6px;
+}
+
+.bottom-logo {
     width: 20%;
     border-radius: 6px;
 }
@@ -23,9 +28,26 @@ p, a {
 }
 
 @media (max-width: 575.98px) {
-    .top-logo, .bottom-logo {
+    .bottom-logo {
         width: 30%;
     }
+}
+
+.audio-card {
+    margin: 1rem;
+}
+
+.audio-controls {
+    opacity: 1 !important;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+svg path {
+    fill: white;
 }
 
 .bio-col {
@@ -37,6 +59,7 @@ p, a {
 
 .card, .card img {
     border-radius: 6px;
+    border: none;
 }
 
 .card-img-overlay {
@@ -47,7 +70,7 @@ p, a {
 }
 
 .card-img-overlay:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 1;
 }
 
