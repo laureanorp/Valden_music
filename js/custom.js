@@ -27,10 +27,10 @@ function onlyPlayOneIn(container) {
       }
     }, true);
   }
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    onlyPlayOneIn(document.body);
-  });
+
+document.addEventListener("DOMContentLoaded", function() {
+  onlyPlayOneIn(document.body);
+});
 
 //var aud = document.getElementById("player");
 //aud.onended = function() {
