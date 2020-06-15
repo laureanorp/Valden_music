@@ -13,6 +13,15 @@ p, a {
     font-size: 1.25rem;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    font-weight: bold;
+    color: black;
+  }
+
 .top-logo {
     border-radius: 6px;
 }
