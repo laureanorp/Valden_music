@@ -50,6 +50,10 @@ a:hover {
     opacity: 1 !important;
 }
 
+.mejs__container, .mejs__controls {
+    background: transparent !important;
+}
+
 svg {
     width: 25px;
     height: 25px;
