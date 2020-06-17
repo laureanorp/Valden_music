@@ -63,6 +63,10 @@ a:hover {
     position: relative !important;
 }
 
+.mejs__volume-button, .mejs__mute, .mejs__horizontal-volume-slider {
+    display: none !important;
+}
+
 svg {
     width: 25px;
     height: 25px;
