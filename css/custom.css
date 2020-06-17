@@ -50,8 +50,17 @@ a:hover {
     opacity: 1 !important;
 }
 
+.mejs__container {
+    width: 100% !important;
+    height: auto !important;
+}
+
 .mejs__container, .mejs__controls {
     background: transparent !important;
+}
+
+.mejs__controls {
+    position: relative !important;
 }
 
 svg {
@@ -80,6 +89,7 @@ svg path {
     transition: ease-in-out;
     transition: 0.3s;
     border-radius: 6px;
+    padding: 1rem;
 }
 
 .card-img-overlay:hover {
