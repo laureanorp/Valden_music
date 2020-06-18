@@ -3,8 +3,8 @@ body {
 }
 
 .top-logo {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 p, a {
@@ -26,6 +26,10 @@ a:hover {
     font-size: xx-large;
     margin-bottom: 0.25rem;
     font-style: italic;
+}
+
+.hero-col {
+    padding: 0;
 }
 
 .top-logo {
