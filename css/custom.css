@@ -43,11 +43,15 @@ a:hover {
 }
 
 .audio-card {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .audio-controls {
     opacity: 1 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mejs__container {
@@ -63,7 +67,7 @@ a:hover {
     position: relative !important;
 }
 
-.mejs__volume-button, .mejs__mute, .mejs__horizontal-volume-slider {
+.mejs__volume-button, .mejs__mute, .mejs__horizontal-volume-slider, .mejs__currenttime-container {
     display: none !important;
 }
 
