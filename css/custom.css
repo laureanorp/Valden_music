@@ -5,6 +5,7 @@ body {
 .top-logo {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    z-index: 1000;
 }
 
 p, a {
@@ -22,10 +23,22 @@ a:hover {
     color: black;
   }
 
+.behind {
+    z-index: -1;
+}
+
+lottie-player {
+    width: 110%;
+}
+
 .text-logo {
-    font-size: xx-large;
+    font-size: 2.6rem;
     margin-bottom: 0.25rem;
     font-style: italic;
+}
+
+.subtitle {
+    color: gray;
 }
 
 .hero-col {
@@ -143,4 +156,9 @@ footer p , a {
 footer a {
     padding-left: 1rem;
     font-size: 1.5rem;
+}
+
+#small-subtitle {
+    font-size: 0.8rem;
+    color: gray;
 }
