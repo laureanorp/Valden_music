@@ -22,6 +22,12 @@ a:hover {
     color: black;
   }
 
+.text-logo {
+    font-size: xx-large;
+    margin-bottom: 0.25rem;
+    font-style: italic;
+}
+
 .top-logo {
     border-radius: 6px;
 }
