@@ -166,11 +166,13 @@ footer p , a {
     font-size: 1.5rem;
 }
 
+.tiny-subtitle {
+    font-size: 0.6rem;
+    color: gray;
+    margin-top: 0.1rem;
+}
+
 .small-subtitle {
     font-size: 0.9rem;
     color: gray;
-}
-
-.underline, .underline:hover {
-    text-decoration: underline;
 }
