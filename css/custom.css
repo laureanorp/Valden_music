@@ -61,7 +61,7 @@ lottie-player {
     padding-left: 0rem;
     padding-right: 0rem;
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .img-with-text {
@@ -75,6 +75,19 @@ lottie-player {
     margin: 0 auto;
 }
 
+.wave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    padding: 0;
+}
+
+.wave img {
+    width: 100%;
+    height: auto;
+}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .logo-col {
@@ -85,6 +98,12 @@ lottie-player {
     }
     .img-with-text {
         width: 20%;
+    }
+    .wave {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.25;
     }
 }
 
@@ -192,10 +211,4 @@ footer p , a {
 .small-subtitle {
     font-size: 0.9rem;
     color: gray;
-}
-
-lottie-player {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
