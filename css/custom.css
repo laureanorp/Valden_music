@@ -40,10 +40,6 @@ lottie-player {
     margin-bottom: 2.5rem;
 }
 
-.hero-col {
-    padding: 0;
-}
-
 .top-logo {
     border-radius: 6px;
 }
@@ -79,12 +75,11 @@ lottie-player {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
     padding: 0;
 }
 
 .wave img {
-    width: 100%;
+    width: 110%;
     height: auto;
 }
 
@@ -103,7 +98,10 @@ lottie-player {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0.25;
+        opacity: 0.5;
+    }
+    .wave img {
+        width: 100%;
     }
 }
 
