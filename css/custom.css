@@ -98,7 +98,7 @@ lottie-player {
         display: flex;
         justify-content: center;
         align-items: center;
-        opacity: 0.6;
+        opacity: 0.5;
     }
     .wave img {
         width: 100%;
